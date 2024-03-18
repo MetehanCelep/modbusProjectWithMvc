@@ -4,24 +4,83 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Last</title>
+    <title>Modbus Verileri</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description"></p>
+    </figure>
+    <style>
+        .highcharts-data-table td,
+        .highcharts-data-table th,
+        .highcharts-data-table caption {
+            padding: 0.5em;
+        }
+
+        .highcharts-data-table thead tr,
+        .highcharts-data-table tr:nth-child(even) {
+            background: #f8f8f8;
+        }
+
+        .highcharts-data-table tr:hover {
+            background: #f1f7ff;
+        }
+    </style>
 </head>
 <body>
     <h1>Modbus Verileri</h1>
     <ul id="dataList">
-        @foreach (var item in Model)
+        @for (int i = 0; i < Model.Count; i++)
         {
-            <li>@item</li>
+            <li>@Model[i]</li>
         }
     </ul>
 
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
     <script>
-        
         var refreshInterval = @ViewBag.RefreshInterval;
 
         setInterval(function () {
             location.reload();
-        }, refreshInterval * 1000); 
+        }, refreshInterval * 1000);
+
+        var modbusData = [@Html.Raw(string.Join(",", Model.Select(item => float.Parse(item))))];
+
+        Highcharts.chart('container', {
+            title: {
+                text: 'Modbus Verileri'
+            },
+            xAxis: {
+                categories: Array.from(Array(modbusData.length).keys()), 
+                tickInterval: 1,
+                type: 'linear',
+                accessibility: {
+                    rangeDescription: 'Range: 0 to 10'
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Değer',
+                    type: 'logarithmic',
+                    accessibility: {
+                        rangeDescription: 'Range: 0 to 10'
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br />',
+                pointFormat: 'x = {point.x}, y = {point.y}'
+            },
+            series: [{
+                name: 'Modbus Verileri',
+                data: modbusData,
+                pointStart: 0 
+            }]
+        });
     </script>
 </body>
 </html>

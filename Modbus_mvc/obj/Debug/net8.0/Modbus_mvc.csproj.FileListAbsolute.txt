@@ -233,3 +233,4 @@ C:\Users\HP\Desktop\Modbus_mvc\Modbus_mvc\bin\Debug\net8.0\runtimes\osx-arm64\na
 C:\Users\HP\Desktop\Modbus_mvc\Modbus_mvc\bin\Debug\net8.0\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
 C:\Users\HP\Desktop\Modbus_mvc\Modbus_mvc\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.IO.Ports.dll
 C:\Users\HP\Desktop\Modbus_mvc\Modbus_mvc\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.IO.Ports.dll
+C:\Users\HP\Desktop\Modbus_mvc\Modbus_mvc\obj\Debug\net8.0\Modbus_mvc.sourcelink.json

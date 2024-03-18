@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\views\\modbus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\views\\modbus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\views\\modbus\\last.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\views\\modbus\\last.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\controllers\\modbuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\models\\modbusdatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\models\\modbusdatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\views\\modbus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\views\\modbus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|solutionrelative:modbus_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F4B3E16-68D0-4A1F-BAEE-B2C6C09F84D6}|Modbus_mvc\\Modbus_mvc.csproj|c:\\users\\hp\\desktop\\modbus_mvc\\modbus_mvc\\models\\lastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,31 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModbusController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Controllers\\ModbusController.cs",
-              "RelativeDocumentMoniker": "Modbus_mvc\\Controllers\\ModbusController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Controllers\\ModbusController.cs",
-              "RelativeToolTip": "Modbus_mvc\\Controllers\\ModbusController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwC8AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T10:14:24.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Last.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Views\\Modbus\\Last.cshtml",
               "RelativeDocumentMoniker": "Modbus_mvc\\Views\\Modbus\\Last.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Views\\Modbus\\Last.cshtml",
               "RelativeToolTip": "Modbus_mvc\\Views\\Modbus\\Last.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAowEIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T11:03:03.965Z"
+              "WhenOpened": "2024-03-13T11:03:03.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ModbusController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Controllers\\ModbusController.cs",
+              "RelativeDocumentMoniker": "Modbus_mvc\\Controllers\\ModbusController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Controllers\\ModbusController.cs",
+              "RelativeToolTip": "Modbus_mvc\\Controllers\\ModbusController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwC8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T10:14:24.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Views\\Modbus\\Index.cshtml",
               "RelativeDocumentMoniker": "Modbus_mvc\\Views\\Modbus\\Index.cshtml",
@@ -107,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Modbus_mvc\\Views\\Shared\\_Layout.cshtml",
@@ -131,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ModbusDatas.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Modbus_mvc\\Modbus_mvc\\Models\\ModbusDatas.cs",
               "RelativeDocumentMoniker": "Modbus_mvc\\Models\\ModbusDatas.cs",
@@ -139,7 +141,8 @@
               "RelativeToolTip": "Modbus_mvc\\Models\\ModbusDatas.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T10:50:21.631Z"
+              "WhenOpened": "2024-03-13T10:50:21.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
