@@ -1,0 +1,27 @@
+﻿@model List<string>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Last</title>
+</head>
+<body>
+    <h1>Modbus Verileri</h1>
+    <ul id="dataList">
+        @foreach (var item in Model)
+        {
+            <li>@item</li>
+        }
+    </ul>
+
+    <script>
+        
+        var refreshInterval = @ViewBag.RefreshInterval;
+
+        setInterval(function () {
+            location.reload();
+        }, refreshInterval * 1000); 
+    </script>
+</body>
+</html>
